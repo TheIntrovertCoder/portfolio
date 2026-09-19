@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Tariff screenshot placeholder">
+  <rect width="1600" height="900" fill="#f1eee6"/>
+  <rect x="1" y="1" width="1598" height="898" fill="none" stroke="#3d3a32" stroke-width="2"/>
+  <text x="80" y="110" font-family="Georgia, serif" font-size="72" font-weight="600" fill="#1a1814">Tariff</text>
+  <text x="80" y="180" font-family="monospace" font-size="28" fill="#c45530">Rate table + live PDF quote preview</text>
+  <rect x="80" y="300" width="700" height="60" fill="#e5e0d3" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="80" y="380" width="700" height="60" fill="#e5e0d3" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="80" y="460" width="700" height="60" fill="#e5e0d3" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="80" y="540" width="700" height="60" fill="#e5e0d3" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="840" y="300" width="680" height="300" fill="#ece7db" stroke="#3d3a32" stroke-width="2"/>
+  <text x="840" y="365" font-family="monospace" font-size="28" fill="#1a1814">Quote preview</text>
+  <text x="100" y="830" font-family="monospace" font-size="24" fill="#3d3a32">Replace with a real screenshot of the rate builder.</text>
+</svg>

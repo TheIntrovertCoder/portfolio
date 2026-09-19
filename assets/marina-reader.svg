@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Marina Reader screenshot placeholder">
+  <rect width="1200" height="900" fill="#f1eee6"/>
+  <rect x="1" y="1" width="1198" height="898" fill="none" stroke="#3d3a32" stroke-width="2"/>
+  <text x="80" y="110" font-family="Georgia, serif" font-size="56" font-weight="600" fill="#1a1814">Marina Reader</text>
+  <text x="80" y="170" font-family="monospace" font-size="26" fill="#c45530">Single article column :: save controls</text>
+  <rect x="80" y="280" width="1040" height="180" fill="#ece7db" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="80" y="480" width="1040" height="180" fill="#ece7db" stroke="#3d3a32" stroke-width="2"/>
+  <rect x="80" y="680" width="1040" height="120" fill="#ece7db" stroke="#3d3a32" stroke-width="2"/>
+  <text x="100" y="830" font-family="monospace" font-size="24" fill="#3d3a32">Replace with a real screenshot of an open article.</text>
+</svg>
