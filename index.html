@@ -1,147 +1,207 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Yogesh Babu — Frontend Developer in Chennai</title>
+        <meta
+            name="description"
+            content="Yogesh Babu is a frontend developer in Chennai, India. He builds fast, readable interfaces for small businesses and their tools."
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yogesh Babu — Frontend Developer in Chennai</title>
-  <meta name="description"
-    content="Yogesh Babu is a frontend developer in Chennai, India. He builds fast, readable interfaces for small businesses and their tools.">
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
 
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <a class="wordmark" href="#top">Yogesh Babu</a>
+            <nav aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-  <header class="site-header">
-    <a class="wordmark" href="#top">Yogesh Babu</a>
-    <nav aria-label="Primary">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+        <main id="main">
+            <section id="top" class="hero" aria-labelledby="hero-title">
+                <h1 id="hero-title">Yogesh Babu</h1>
+                <p class="hero-role">
+                    Junior Automationist in Chennai &mdash; learning automation
+                    and developing stuff in spare time.
+                </p>
+            </section>
 
-  <main id="main">
-    <section id="top" class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Yogesh Babu</h1>
-      <p class="hero-role">Frontend developer in Chennai &mdash; building interfaces that load fast and read clearly.
-      </p>
-    </section>
+            <section id="about" class="about" aria-labelledby="about-title">
+                <p class="kicker">01 &mdash; About</p>
+                <h2 id="about-title">About</h2>
+                <p>
+                    QC Aanlyst turned Automationist. Building hobby projects
+                    using AI. 3 year of combined experience in QC + process
+                    automation.
+                </p>
+            </section>
 
-    <section id="about" class="about" aria-labelledby="about-title">
-      <p class="kicker">01 &mdash; About</p>
-      <h2 id="about-title">About</h2>
-      <p>I have no background in IT or web development. I'm currently working through the fundamentals — HTML, CSS, and JavaScript — and building muscle memory by coding by hand instead of relying on templates. I'm in the phase where I'm still figuring out how the browser actually works, and that's exactly where I want to be right now.</p>
-    </section>
+            <section
+                id="projects"
+                class="projects"
+                aria-labelledby="projects-title"
+            >
+                <p class="kicker">02 &mdash; Work</p>
+                <h2 id="projects-title">Projects</h2>
 
-    <section id="projects" class="projects" aria-labelledby="projects-title">
-      <p class="kicker">02 &mdash; Work</p>
-      <h2 id="projects-title">Projects</h2>
+                <div class="project-list">
+                    <article class="project project--wide">
+                        <figure>
+                            <img
+                                src="./assets/PromptFerry.png"
+                                alt="Screenshot of the PromptFerry app: Turn a project idea into the ultimate, production-ready build prompt."
+                                width="1600"
+                                height="900"
+                            />
+                        </figure>
+                        <div class="project-body">
+                            <p class="project-meta">2026 &middot; Personal</p>
+                            <h3>PromptFerry</h3>
+                            <p>Turn a project idea into the ultimate, production-ready build prompt</p>
+                            <p class="stack">
+                                Sveltekit 3 &middot; TypeScript &middot; Bun
+                            </p>
+                            <p class="project-links">
+                                <a href="https://promptferry.netlify.app/"
+                                    >Live preview</a
+                                >
+                                <a
+                                    href="https://github.com/TheIntrovertCoder/Promptferry"
+                                    >Source code</a
+                                >
+                            </p>
+                        </div>
+                    </article>
 
-      <div class="project-list">
-        <!-- <article class="project project--wide">
-          <figure>
-            <img src="assets/tariff.svg"
-              alt="Screenshot of the Tariff quoting app: a rate-card table on the left, a live PDF quote preview on the right."
-              width="1600" height="900">
-          </figure>
-          <div class="project-body">
-            <p class="project-meta">2025 &middot; Client work</p>
-            <h3>Tariff</h3>
-            <p>I rebuilt the quoting portal for a Chennai freight forwarder whose old exports kept timing out. Rates now
-              assemble into clean PDF quotes in the browser, without dropping the session.</p>
-            <p class="stack">React &middot; TypeScript &middot; Vite &middot; jsPDF</p>
-            <p class="project-links">
-              <a href="#">Live preview</a>
-              <a href="#">Source code</a>
-            </p>
-          </div>
-        </article> -->
+                    <article class="project project--span5">
+                        <div class="project-body">
+                            <p class="project-meta">2022 &middot; Personal</p>
+                            <h3>Personal_Redirect</h3>
+                            <p>
+                                Browser extension that redirects to open source
+                                frontend alternatives.
+                            </p>
+                            <p class="stack">JSON</p>
+                            <p class="project-links">
+                                <a
+                                    href="./assets/personal_redirect.mp4"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Live preview</a
+                                >
+                                <a
+                                    href="https://github.com/TheIntrovertCoder/Personal_Redirect"
+                                    >Source code</a
+                                >
+                            </p>
+                        </div>
+                    </article>
 
-        <article class="project project--span5">
-          <div class="project-body">
-            <p class="project-meta">2022 &middot; Personal tool</p>
-            <h3>Personal_Redirect</h3>
-            <p>Browser extension that redirects to open source frontend alternatives.</p>
-            <p class="stack">JSON</p>
-            <p class="project-links">
-              <a href="./assets/personal_redirect.mp4" target="_blank" rel="noopener noreferrer">Live preview</a>
-              <a href="https://github.com/TheIntrovertCoder/Personal_Redirect">Source code</a>
-            </p>
-          </div>
-        </article>
+                    <!-- <article class="project project--span7">
+                        <figure>
+                            <img
+                                src="assets/route-21.svg"
+                                alt="Screenshot of Route 21: a Chennai bus map with stop markers and a next-arrival list at the bottom."
+                                width="1200"
+                                height="675"
+                            />
+                        </figure>
+                        <div class="project-body">
+                            <p class="project-meta">
+                                2023 &middot; In daily use
+                            </p>
+                            <h3>Route 21</h3>
+                            <p>
+                                A real-time tracker for the MTC buses I take
+                                every day, listing arrivals by stop instead of
+                                by route. It runs on my weakest network mode and
+                                still updates before the conductor rings the
+                                bell.
+                            </p>
+                            <p class="stack">
+                                Vanilla JS &middot; Leaflet &middot; Service
+                                Worker
+                            </p>
+                            <p class="project-links">
+                                <a href="#">Live preview</a>
+                                <a href="#">Source code</a>
+                            </p>
+                        </div>
+                    </article> -->
+                </div>
+            </section>
 
-        <!-- <article class="project project--span7">
-          <figure>
-            <img src="assets/route-21.svg"
-              alt="Screenshot of Route 21: a Chennai bus map with stop markers and a next-arrival list at the bottom."
-              width="1200" height="675">
-          </figure>
-          <div class="project-body">
-            <p class="project-meta">2023 &middot; In daily use</p>
-            <h3>Route 21</h3>
-            <p>A real-time tracker for the MTC buses I take every day, listing arrivals by stop instead of by route. It
-              runs on my weakest network mode and still updates before the conductor rings the bell.</p>
-            <p class="stack">Vanilla JS &middot; Leaflet &middot; Service Worker</p>
-            <p class="project-links">
-              <a href="#">Live preview</a>
-              <a href="#">Source code</a>
-            </p>
-          </div>
-        </article> -->
-      </div>
-    </section>
+            <section id="skills" class="skills" aria-labelledby="skills-title">
+                <p class="kicker">03 &mdash; Skills</p>
+                <h2 id="skills-title">Skills</h2>
 
-    <section id="skills" class="skills" aria-labelledby="skills-title">
-      <p class="kicker">03 &mdash; Skills</p>
-      <h2 id="skills-title">Skills</h2>
+                <div class="skill-group">
+                    <p class="skill-label">Languages</p>
+                    <p class="skill-items">JavaScript, TypeScript, HTML, CSS</p>
+                </div>
 
-      <div class="skill-group">
-        <p class="skill-label">Languages</p>
-        <p class="skill-items">JavaScript, TypeScript, HTML, CSS</p>
-      </div>
+                <div class="skill-group">
+                    <p class="skill-label">Frameworks</p>
+                    <p class="skill-items">React, Sveltekit</p>
+                </div>
 
-      <div class="skill-group">
-        <p class="skill-label">Frameworks</p>
-        <p class="skill-items">React, Sveltekit</p>
-      </div>
+                <div class="skill-group">
+                    <p class="skill-label">Tools</p>
+                    <p class="skill-items">Git</p>
+                </div>
+            </section>
 
-      <div class="skill-group">
-        <p class="skill-label">Tools</p>
-        <p class="skill-items">Git</p>
-      </div>
-      
-    </section>
+            <section
+                id="contact"
+                class="contact"
+                aria-labelledby="contact-title"
+            >
+                <p class="kicker">04 &mdash; Contact</p>
+                <h2 id="contact-title">Contact</h2>
+                <p class="contact-intro">
+                    If you have a frontend that needs untangling, or a small
+                    project that has to start clean, email is the fastest way to
+                    reach me.
+                </p>
 
-    <section id="contact" class="contact" aria-labelledby="contact-title">
-      <p class="kicker">04 &mdash; Contact</p>
-      <h2 id="contact-title">Contact</h2>
-      <p class="contact-intro">If you have a frontend that needs untangling, or a small project that has to start clean,
-        email is the fastest way to reach me.</p>
+                <ul class="contact-list">
+                    <li>
+                        <span class="contact-label">Email</span>
+                        <a href="mailto:yogeshbabu231@proton.me"
+                            >yogeshbabu231@proton.me</a
+                        >
+                    </li>
+                    <li>
+                        <span class="contact-label">GitHub</span>
+                        <a
+                            href="https://github.com/theintrovertcoder"
+                            target="_blank"
+                            rel="noopener"
+                            >github.com/theintrovertcoder</a
+                        >
+                    </li>
+                    <li>
+                        <span class="contact-label">Gitlab</span>
+                        <a
+                            href="https://gitlab.com/TheInrovertCoder"
+                            target="_blank"
+                            rel="noopener"
+                            >gitlab.com/TheInrovertCoder</a
+                        >
+                    </li>
+                </ul>
+            </section>
+        </main>
 
-      <ul class="contact-list">
-        <li>
-          <span class="contact-label">Email</span>
-          <a href="mailto:yogeshbabu231@proton.me">yogeshbabu231@proton.me</a>
-        </li>
-        <li>
-          <span class="contact-label">GitHub</span>
-          <a href="https://github.com/theintrovertcoder" target="_blank" rel="noopener">github.com/theintrovertcoder</a>
-        </li>
-        <li>
-          <span class="contact-label">Gitlab</span>
-          <a href="https://gitlab.com/TheInrovertCoder" target="_blank" rel="noopener">gitlab.com/TheInrovertCoder</a>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; <span id="year">2026</span> Yogesh Babu. Built by hand.</p>
-  </footer>
-
-</body>
-
+        <footer>
+            <p>&copy; <span id="year">2026</span> Yogesh Babu.</p>
+        </footer>
+    </body>
 </html>
